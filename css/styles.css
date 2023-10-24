@@ -4,3 +4,6 @@ h1 {
 div{
     margin: 10px;
 }
+.chevron {
+    background-image: url("chevron.png");
+}
