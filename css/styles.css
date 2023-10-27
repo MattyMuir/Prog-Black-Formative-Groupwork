@@ -4,6 +4,23 @@ h1 {
 div{
     margin: 10px;
 }
-.chevron {
-    background-image: url("chevron.png");
+body {
+    background-image: url("../images/chevron.png");
+    margin: 25px 50px;
+}
+.stylehead {
+    background-image: url("../images/folk-pattern.png");
+}
+.content {
+    background-image: url("../images/footer_lodyas.png");
+    color: #C0C0C0;
+}
+.header {
+    margin: 25px 100px
+}
+.indent {
+    margin: 25px 50px
+}
+p {
+    margin: 0px 25px
 }
