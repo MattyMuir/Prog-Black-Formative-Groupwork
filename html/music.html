@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="../css/styles.css">
     <title>Music</title>
 </head>
+<style>
+     .media {
+        display: block;
+        width: 60%;
+        height: 80%;
+        margin: auto;
+    }
+    .indent{
+        text-indent: 10px;
+    }
+</style>
 <body>
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -18,7 +29,43 @@
         <h1>Computer Science and Music</h1>
         <h3>How computer science and music relate to each other:</h3>
         <p>Although music and computer science seem like very different fields, they in fact have a lot of similarities. Both involve a deep understanding of complex patterns and mathematical structures and : musical concepts like melody, harmony, and rhythm can be used to understand algorithms and data structures!</p>
-        <img src="images/computer_music.jpg" alt="Computer Music" />
+        <br>
+        <img class="media"
+            src="../images/computer_music.jpg"
+            alt="Computer Music" />
+        <br>
+        <h3>The music industry now as a result of computer science:</h3>
+        <p>As a result of computer science:</p>
+        <ul>
+            <li>it is easier, faster and more efficient for consumers to obtain music</li>
+            <li>listeners can share music with people, and connect with others who are fans of similar music tastes</li>
+            <li>composers can now create sounds ranging from pure tones to random noise due to the wide variety of sounds they have access to</li>
+            <li>producers can make music more efficiently</li>
+            <li>independent artists have a more level playing field in getting recognition</li>
+        </ul>
+        <h3>How computer science is used in the music industry?</h3>
+        <p>Computer science can be used to create and understand music better.</p>
+        <p><u>Algorithmic Composition</u></p>
+        <p class="indent">Definition: the technique of using algorithms to create music</p>
+        <p>An example of algorithmic composition in history is Musikalisches Würfelspiel = “music dice game”, which is attributed to Mozart, although not authenticated. The dice rolls randomly selected small sections of music which would be patched together to create a musical piece. All measures except 8 and 16 have different possibilities for each roll (i.e. 11 different versions), with measure 8 only having one possibility and measure 16 having two. This gives a total of 2×11^14 = 759,499,667,166,482 different yet similar waltzes. If the game is played with dice (as intended), then these different pieces are not equally likely due to the different probabilities for different dice sums.</p>
+        <img class="media"
+            src="../images/music_dice_game.jpg"
+            alt="Music Dice Game" />
+        <p>Music is considered composed by computer when the algorithm is able to make choices of its own during the creation process. Examining the results, algorithms can either:</p>
+        <ul>
+            <li>provide notational information (sheet music or MIDI)</li>
+            <li>provide an independent way of sound synthesis (playing the composition by itself)</li>
+            <li>or do both</li>
+        </ul>
+        <p>An example of a way compositional algorithms are structured and process data are using translational models. Eg. translating a picture into sound, a JPEG image of a horizontal line could be interpreted as a constant pitch, whereas a line slanting upwards could be an ascending scale. </p>
+        <p><u>Music Analysis</u></p>
+        <p class="indent">Computer science can be used to analyze and understand existing music, and create new ways to visualise and interact with it</p>
+        <iframe class="media" src="https://www.youtube.com/embed/SWzK8VWVt3s">
+        </iframe>
+        <br>
+        <p><u>Computer Generated Music</u></p>
+        <br>
+        <audio controls src="../media/first_computer_music.mp3"></audio>
     </div>
 </body>
 </html>
